@@ -1,7 +1,8 @@
+{% load i18n %}
 <!-- Container (Experience Section) -->
     <div id="experience" class="container text-center">
         <div class="header">
-            <h2>Experience</h2>
+            <h2>{% trans '경력' %}</h2>
         </div>
         <br>
         <div class="row">
@@ -12,10 +13,12 @@
                     </div>
                     <div class="col-sm-6">
                         <h3>KAMPERKOREA</h3>
+                        {% blocktrans %}
                         <P>한국에 거주하는 외국인들, 관광객들을 위한 쇼핑몰</P>
                         <p>2016.04 ~ 2017.04</p>
                         <p>어시스턴트 개발자로서 python을 새로 배우기 시작하였고,</p>
                         <p>python 뿐만 아니라 django, flask, bootstrap, aws 를 이용하여 웹사이트를 개발</p>
+                        {% endblocktrans %}
 
                     </div>
 

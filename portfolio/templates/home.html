@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% block content %}
 
     <div id="home" class="text-center">
 
         <img src="/media/IMG_5259.JPG" alt="" class="img-responsive" style="opacity: 0.85"/>
         <div class=""  style="top:30%; position: absolute; text-align: center; width: 100%;">
-            <h1 style="font-size:6.0em;  font-weight: 800">최대은</h1>
-            <h1 style="font-size:3.0em;  font-weight: 800">소프트웨어 엔지니어</h1>
+            <h1 style="font-size:6.0em;  font-weight: 800">{% trans '최대은' %}</h1>
+            <h1 style="font-size:3.0em;  font-weight: 800">{% trans '소프트웨어 엔지니어' %}</h1>
         </div>
 
     </div>

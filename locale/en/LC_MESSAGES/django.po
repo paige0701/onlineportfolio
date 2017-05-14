@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-14 12:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mysite/settings.py:150
+msgid "English"
+msgstr ""
+
+#: mysite/settings.py:151
+msgid "Korean"
+msgstr ""
+
+#: portfolio/templates/aboutme.html:5 portfolio/templates/header.html:41
+msgid "자기소개"
+msgstr "About Me"
+
+#: portfolio/templates/aboutme.html:17 portfolio/templates/home.html:9
+msgid "최대은"
+msgstr "Daeen Choi"
+
+#: portfolio/templates/aboutme.html:20
+msgid ""
+"\n"
+"                        <p>서울에 살고있는 주니어 웹 개발자 입니다</p>\n"
+"                        <p>새로운 기술에 관심이 많고</p>\n"
+"                        <p>주로 python, node.js, java 로 개발을 하고 있습니다"
+"</p>\n"
+"                        <p>django, flask, express, mongoDB 도 관심이 많아요</"
+"p>\n"
+"                        <p>호주에서 이민생활을 해서 영어를 할 수 있는 개발자 "
+"입니다</p>\n"
+"                    "
+msgstr ""
+"\n"
+"                        <p>Junior Software Developer based in Seoul, South Korea</p>\n"
+"                        <p>Very interested in fast changing technologies</p>\n"
+"                        <p>Usually use python, node.js, java "
+"</p>\n"
+"                        <p>Also interested in django, flask, express, mongoDB </"
+"p>\n"
+"                        <p>Fluent in english and Korean. Currently learning Spanish alone</p>\n"
+"                    "
+
+#: portfolio/templates/aboutme.html:32
+msgid "취미"
+msgstr "Hobbies"
+
+#: portfolio/templates/aboutme.html:34
+msgid "아르바이트"
+msgstr "Work as a part timer"
+
+#: portfolio/templates/aboutme.html:35
+msgid "스페인어 공부하기"
+msgstr "Study Spanish"
+
+#: portfolio/templates/aboutme.html:36
+msgid "여행하기"
+msgstr "Travelling"
+
+#: portfolio/templates/aboutme.html:37
+msgid "블로그 쓰기"
+msgstr "Write blogs"
+
+#: portfolio/templates/contact.html:6
+msgid "연락하기"
+msgstr "Contacts"
+
+#: portfolio/templates/education.html:5 portfolio/templates/header.html:44
+msgid "학력"
+msgstr "Education"
+
+#: portfolio/templates/education.html:10
+msgid "숭실대학교"
+msgstr "Soongsil University"
+
+#: portfolio/templates/education.html:11
+msgid "경영학부"
+msgstr "Business Administration"
+
+#: portfolio/templates/education.html:12
+msgid "졸업 (학사)"
+msgstr "Bachelor"
+
+#: portfolio/templates/education.html:20
+msgid "정보교육원"
+msgstr "Information Educational Institute"
+
+#: portfolio/templates/education.html:21
+msgid "오라클 기반의 웹어프리케이션 개발 자바 전문가과정"
+msgstr "Oracle based Web Application Development using JAVA"
+
+#: portfolio/templates/experience.html:5 portfolio/templates/header.html:43
+msgid "경력"
+msgstr "Experience"
+
+#: portfolio/templates/experience.html:16
+msgid ""
+"\n"
+"                        <P>한국에 거주하는 외국인들, 관광객들을 위한 쇼핑몰</"
+"P>\n"
+"                        <p>2016.04 ~ 2017.04</p>\n"
+"                        <p>어시스턴트 개발자로서 python을 새로 배우기 시작하"
+"였고,</p>\n"
+"                        <p>python 뿐만 아니라 django, flask, bootstrap, aws "
+"를 이용하여 웹사이트를 개발</p>\n"
+"                        "
+msgstr ""
+"\n"
+"                        <P>E-commerce shopping mall for foreigners living and travelling Korea</"
+"P>\n"
+"                        <p>2016.04 ~ 2017.04</p>\n"
+"                        <p>Junior Python Developer</p>\n"
+"                        <p>Developing Stacks were django, flask, bootstrap, aws and more </p>\n"
+"                        "
+
+#: portfolio/templates/header.html:10
+msgid "홈"
+msgstr "Home"
+
+#: portfolio/templates/header.html:42 portfolio/templates/skills.html:5
+msgid "개발능력"
+msgstr "Skills"
+
+#: portfolio/templates/header.html:45 portfolio/templates/portfolio.html:5
+msgid "포트폴리오"
+msgstr "Portfolio"
+
+#: portfolio/templates/header.html:46
+msgid "연락"
+msgstr "Contacts"
+
+#: portfolio/templates/home.html:10
+msgid "소프트웨어 엔지니어"
+msgstr "Software Engineer"

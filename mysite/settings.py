@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from django.utils.translation import ugettext_lazy as _
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -48,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -128,3 +130,32 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'paigechoi0701@gmail.com'
+EMAIL_HOST_PASSWORD = 'redhater07'
+EMAIL_PORT = 587
+
+
+# EMAIL_HOST = 'smtp.worksmobile.com'
+# # EMAIL_PORT = 25  # Default설정
+# EMAIL_HOST_USER = 'kamper@kamper.co.kr'
+# EMAIL_HOST_PASSWORD = 'us621011'
+# EMAIL_PORT = 465
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('ko', _('Korean')),
+)
+LANGUAGE_CODE = 'ko'
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
+USE_L10N = True
+USE_TZ = True
+
+TIME_ZONE = 'Asia/Seoul'
