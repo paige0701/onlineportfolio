@@ -132,9 +132,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'paigechoi0701@gmail.com'
-EMAIL_HOST_PASSWORD = 'redhater07'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'paigechoi0701@gmail.com'
+# EMAIL_HOST_PASSWORD = 'iloveaustralia'
 EMAIL_PORT = 587
 
 

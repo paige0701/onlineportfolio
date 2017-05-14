@@ -1,14 +1,15 @@
 {% load i18n %}
 <!-- Container (Contact Section) -->
-    <div id="contact" class="container-fluid bg-1">
+<div id="contact" class="container-fluid bg-1">
 
-        <div class="container">
-            <h3 class="text-center">{% trans '연락하기' %}</h3>
-            <br/>
-            <br/>
-            <br/>
+    <div class="container">
+        <h3 class="text-center">{% trans '연락하기' %}</h3>
+        <br/>
+        <br/>
+        <br/>
 
-
+        <form action="{% url 'send' %}" id="emailform" method="POST">
+            {% csrf_token %}
 
             <div class="row">
                 <div class="col-sm-6 form-group">
@@ -22,9 +23,17 @@
             <br>
             <div class="row">
                 <div class="col-md-12 form-group">
-                    <button class="btn pull-right" type="submit">Send</button>
+                    <button class="btn pull-right" type="submit" id="emailsubmit">Send</button>
                 </div>
             </div>
-        </div>
-
+        </form>
     </div>
+
+</div>
+
+{% block extrascripts %}
+    <script>
+
+
+    </script>
+{% endblock %}

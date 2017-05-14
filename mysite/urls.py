@@ -19,11 +19,13 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 
-from portfolio.views import home
+from portfolio.views import home, sendemail
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home, name='home'),
+
+    url(r'^send/', sendemail, name='send'),
 
     # change language
     url(r'^i18n/', include('django.conf.urls.i18n')),
