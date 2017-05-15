@@ -131,10 +131,13 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
-EMAIL_USE_TLS = True
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'paigechoi0701@gmail.com'
-# EMAIL_HOST_PASSWORD = 'iloveaustralia'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+
+EMAIL_USE_TLS = False
 EMAIL_PORT = 587
 
 
@@ -143,7 +146,6 @@ EMAIL_PORT = 587
 # EMAIL_HOST_USER = 'kamper@kamper.co.kr'
 # EMAIL_HOST_PASSWORD = 'us621011'
 # EMAIL_PORT = 465
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
 LANGUAGES = (

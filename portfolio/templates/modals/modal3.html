@@ -1,0 +1,76 @@
+{% load i18n %}
+
+<!-- Modal 3 -->
+<div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4>Yelpcamp</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <table class="table table-bordered">
+                        <tr >
+                            <td class="active">{% trans '프로젝트명' %}</td>
+                            <td>MAGNETICA</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '설명' %}</td>
+                            <td>{% trans '전 세계의 자석들을 공유하기' %}</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '참여인원' %}</td>
+                            <td>1{% trans '명' %}</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '개발환경 및 개발도구' %}</td>
+                            <td>Cloud9, node.js, mongoDB, express and more</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '담당업무' %}</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '개발기간' %}</td>
+                            <td>3 {% trans '주' %}</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '주요기능' %}</td>
+                            <td>{% trans '글쓰기, 댓글쓰기, 로그인 & 회원가입 (Passport, passport-local), Flashing Messages' %}</td>
+                        </tr>
+
+                        <tr>
+                            <td class="active">{% trans '느낀점' %}</td>
+                            <td>{% trans '처음으로 node.js 를 공부해보았는데 javascript를 서버단에서 쓸 수 있다는 것이 매력적으로 느껴졌고, 빠르고 쉽게 배울 수 있으서 흥미로웠다.' %}</td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+                <div class="thumbnail">
+                     <div class="caption-full well">
+                        <h3><strong>{% trans '메인페이지' %}</strong></h3>
+                        <p>{% trans '전체적인 레이아웃 및 디자인, fade를 이용한 백그라운드 이미지가 바뀐다' %}</p>
+                    </div>
+                    <img class='image-responsive modal-photo' src='/media/node/front.png' >
+                </div>
+
+                <div class="thumbnail">
+                     <div class="caption-full well">
+                        <h3><strong>{% trans '메인페이지' %}</strong></h3>
+                        <p>{% trans '전체적인 레이아웃 및 디자인, fade를 이용한 백그라운드 이미지가 바뀐다' %}</p>
+                    </div>
+                    <img class='image-responsive modal-photo' src='/media/node/front.png' >
+                </div>
+
+
+            </div>
+            {#            <div class="modal-footer">#}
+            {##}
+            {#            </div>#}
+        </div>
+    </div>
+</div>

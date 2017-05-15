@@ -1,0 +1,56 @@
+
+{% load i18n %}
+<!-- Modal 4 -->
+<div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4>Triplan</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <table class="table table-bordered">
+                        <tr >
+                            <td class="active">{% trans '프로젝트명' %}</td>
+                            <td>Triplan</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '설명' %}</td>
+                            <td>{% trans '캠핑장을 모아놓은 사이트이다' %}</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '참여인원' %}</td>
+                            <td>1 {% trans '명' %}</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '개발환경 및 개발도구' %}</td>
+                            <td>'Cloud9, node.js, mongoDB, express'</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '담당업무' %}</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '개발기간' %}</td>
+                            <td>4 {% trans '주' %}</td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '주요기능' %}</td>
+                            <td>{% trans '캠핑장 등록, 댓글, 로그인, 회원가입' %}</td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+
+
+            </div>
+            {#            <div class="modal-footer">#}
+            {##}
+            {#            </div>#}
+        </div>
+    </div>
+</div>

@@ -27,7 +27,8 @@ def sendemail(request):
         receiver = ['paigechoi0701@gmail.com',]
         # to_list = [from_email,settings.EMAIL_HOST_USER]
         # to_list = [user.email,settings.EMAIL_HOST_USER]
-        send_mail(subject, message, from_email, receiver)
+        # send_mail(subject, message, from_email, receiver)
+        send_mail(subject, message, from_email, ['cde0701@gmail.com'])
 
         # print("current site = ", current_site)
         # return redirect('account_activation_sent')
