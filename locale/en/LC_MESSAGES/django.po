@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 15:17+0900\n"
+"POT-Creation-Date: 2017-05-17 15:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,40 +42,33 @@ msgid ""
 "</p>\n"
 "                        <p>django, flask, express, mongoDB 도 관심이 많아요</"
 "p>\n"
-"                        <p>호주에서 이민생활을 해서 영어를 할 수 있는 개발자 "
-"입니다</p>\n"
+"                        <p>호주에서 7년간 이민생활을 했어요</p>\n"
 "                    "
 msgstr ""
 "\n"
-"                        <p>Junior Software Developer based in Seoul, South "
-"Korea</p>\n"
-"                        <p>Very interested in fast changing technologies</"
-"p>\n"
-"                        <p>Usually use python, node.js, java </p>\n"
-"                        <p>Also interested in django, flask, express, "
-"mongoDB </p>\n"
-"                        <p>Fluent in english and Korean. Currently learning "
-"Spanish alone</p>\n"
+"                        <p>I'm a junior software developer based in Seoul, South Korea</p>\n"
+"                        <p>Enjoy checking out new technologies</p>\n"
+"                        <p>Usually use python, java, node.js</p>\n"
+"                        <p>Also very interested in django, flask, express, mongoDB</p>\n"
+"                        <p>Fluent in English and Korean. Currently learning Spanish alone</p>\n"
 "                    "
 
-#: portfolio/templates/aboutme.html:32
+#: portfolio/templates/aboutme.html:34
 msgid "취미"
 msgstr "Hobbies"
 
-#: portfolio/templates/aboutme.html:34
-msgid "아르바이트"
-msgstr "Work as a part timer"
-
-#: portfolio/templates/aboutme.html:35
+#: portfolio/templates/aboutme.html:36
 msgid "스페인어 공부하기"
 msgstr "Study Spanish"
 
-#: portfolio/templates/aboutme.html:36
+#: portfolio/templates/aboutme.html:37
 msgid "여행하기"
 msgstr "Travelling"
 
-#: portfolio/templates/aboutme.html:37
-msgid "블로그 쓰기"
+#: portfolio/templates/aboutme.html:38
+#, fuzzy
+#| msgid "블로그 쓰기"
+msgid "여행 블로그 쓰기"
 msgstr "Write blogs"
 
 #: portfolio/templates/contact.html:6
@@ -279,7 +272,8 @@ msgstr "Order History"
 
 #: portfolio/templates/modals/modal1.html:82
 msgid "결제가 완료 되는 순간 오더 디비에 추가 되며 화면으로 확인 할 수 있다"
-msgstr "When checkout is finished, order DB is inserted and that can be checked here"
+msgstr ""
+"When checkout is finished, order DB is inserted and that can be checked here"
 
 #: portfolio/templates/modals/modal2.html:21
 msgid "flask를 이용하여 ecommerce website 구현"
@@ -340,13 +334,17 @@ msgstr "Sharing magnets from all over the world"
 msgid ""
 "글쓰기, 댓글쓰기, 로그인 & 회원가입 (Passport, passport-local), Flashing "
 "Messages"
-msgstr "Write posts, comments, login and signup (Passport, passport-local) and Flashing messages"
+msgstr ""
+"Write posts, comments, login and signup (Passport, passport-local) and "
+"Flashing messages"
 
 #: portfolio/templates/modals/modal3.html:46
 msgid ""
 "처음으로 node.js 를 공부해보았는데 javascript를 서버단에서 쓸 수 있다는 것이 "
 "매력적으로 느껴졌고, 빠르고 쉽게 배울 수 있으서 흥미로웠다."
-msgstr "First time trying node.js. What intrigued me was that using javascript to control server. Easy and very straight forward language."
+msgstr ""
+"First time trying node.js. What intrigued me was that using javascript to "
+"control server. Easy and very straight forward language."
 
 #: portfolio/templates/modals/modal3.html:56
 msgid ""
@@ -370,7 +368,7 @@ msgstr "Login and signup"
 
 #: portfolio/templates/modals/modal3.html:72
 msgid "Passport, passport-local 을 이용한 간편한 회원가입과 로그인 구현"
-msgstr "Easy sign and safe sign up and login using passport and passport-local"
+msgstr "Easy and safe sign up and login using passport and passport-local"
 
 #: portfolio/templates/modals/modal3.html:79
 msgid "메시지 화면"
@@ -380,7 +378,9 @@ msgstr "Flashing message"
 msgid ""
 "Connect-flash 를 이용하여 에러가 있을떄는 빨간색 메시지가, 일반 메시지는 초록"
 "색 메시지를 띄운다"
-msgstr "Connect-flash only sends request once. When there's error, it flashed red message, else green message."
+msgstr ""
+"Connect-flash only sends request once. When there's error, it flashes red "
+"message, else green message."
 
 #: portfolio/templates/modals/modal3.html:88
 msgid "댓글 기능"
@@ -399,3 +399,6 @@ msgstr ""
 #: portfolio/templates/modals/modal4.html:41
 msgid "캠핑장 등록, 댓글, 로그인, 회원가입"
 msgstr ""
+
+#~ msgid "아르바이트"
+#~ msgstr "Work as a part timer"
