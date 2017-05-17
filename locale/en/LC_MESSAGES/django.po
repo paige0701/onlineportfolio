@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 15:42+0900\n"
+"POT-Creation-Date: 2017-05-17 16:18+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,14 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"                        <p>I'm a junior software developer based in Seoul, South Korea</p>\n"
+"                        <p>I'm a junior software developer based in Seoul, "
+"South Korea</p>\n"
 "                        <p>Enjoy checking out new technologies</p>\n"
 "                        <p>Usually use python, java, node.js</p>\n"
-"                        <p>Also very interested in django, flask, express, mongoDB</p>\n"
-"                        <p>Fluent in English and Korean. Currently learning Spanish alone</p>\n"
+"                        <p>Also very interested in django, flask, express, "
+"mongoDB</p>\n"
+"                        <p>Fluent in English and Korean. Currently learning "
+"Spanish alone</p>\n"
 "                    "
 
 #: portfolio/templates/aboutme.html:34
@@ -183,94 +186,105 @@ msgstr " "
 msgid "개발환경 및 개발도구"
 msgstr "Environment and tool"
 
-#: portfolio/templates/modals/modal1.html:32
-#: portfolio/templates/modals/modal2.html:32
-#: portfolio/templates/modals/modal3.html:32
-#: portfolio/templates/modals/modal4.html:32
+#: portfolio/templates/modals/modal1.html:39
+#: portfolio/templates/modals/modal2.html:39
+#: portfolio/templates/modals/modal3.html:39
+#: portfolio/templates/modals/modal4.html:40
 msgid "담당업무"
 msgstr "Role"
 
-#: portfolio/templates/modals/modal1.html:36
-#: portfolio/templates/modals/modal2.html:36
-#: portfolio/templates/modals/modal3.html:36
-#: portfolio/templates/modals/modal4.html:36
+#: portfolio/templates/modals/modal1.html:43
+#: portfolio/templates/modals/modal2.html:43
+#: portfolio/templates/modals/modal3.html:43
+#: portfolio/templates/modals/modal4.html:44
 msgid "개발기간"
 msgstr "Time range"
 
-#: portfolio/templates/modals/modal1.html:37
-#: portfolio/templates/modals/modal2.html:37
-#: portfolio/templates/modals/modal3.html:37
-#: portfolio/templates/modals/modal4.html:37
+#: portfolio/templates/modals/modal1.html:44
+#: portfolio/templates/modals/modal2.html:44
+#: portfolio/templates/modals/modal3.html:44
+#: portfolio/templates/modals/modal4.html:45
 msgid "주"
 msgstr "weeks"
 
-#: portfolio/templates/modals/modal1.html:40
-#: portfolio/templates/modals/modal2.html:40
-#: portfolio/templates/modals/modal3.html:40
-#: portfolio/templates/modals/modal4.html:40
+#: portfolio/templates/modals/modal1.html:47
+#: portfolio/templates/modals/modal2.html:47
+#: portfolio/templates/modals/modal3.html:47
+#: portfolio/templates/modals/modal4.html:48
 msgid "주요기능"
 msgstr "Main functions"
 
-#: portfolio/templates/modals/modal1.html:41
-msgid "회원가입, 로그인, 페이스북로그인, 장바구니, 결제"
-msgstr "Sign up, login, facebook login, basket, checkout"
+#: portfolio/templates/modals/modal1.html:49
+msgid ""
+"\n"
+"\n"
+"                                <p>1. 회원가입 및 로그인/로그아웃 기능</p>\n"
+"                                <p>2. 페이스북 로그인</p>\n"
+"                                <p>3. 장바구니</p>\n"
+"                                <p>4. 결제</p>\n"
+"                                <p>5. 관리자 페이지(회원관리, 상품 등록, 통"
+"계 등)</p>\n"
+"\n"
+"                            "
+msgstr ""
 
-#: portfolio/templates/modals/modal1.html:44
-#: portfolio/templates/modals/modal2.html:44
-#: portfolio/templates/modals/modal3.html:45
+#: portfolio/templates/modals/modal1.html:62
+#: portfolio/templates/modals/modal2.html:62
+#: portfolio/templates/modals/modal3.html:62
+#: portfolio/templates/modals/modal4.html:65
 msgid "느낀점"
 msgstr "Thoughts"
 
-#: portfolio/templates/modals/modal1.html:45
+#: portfolio/templates/modals/modal1.html:63
 msgid ""
 "Python을 접하고 처음으로 하는 프로젝트여서 많은 참여를 하지는 못했지만 django"
 "를 배울 수 있었던 좋은 기회였다."
 msgstr ""
 
-#: portfolio/templates/modals/modal1.html:46
+#: portfolio/templates/modals/modal1.html:64
 msgid ""
 "학원에서 배웠던 Java랑은 확실히 달라서 적응하는데 시간이 걸렸지만, 이 프로젝"
 "트를 통해 새로운 것을 받아드리는 유연함을 길렀다 "
 msgstr ""
 
-#: portfolio/templates/modals/modal1.html:53
+#: portfolio/templates/modals/modal1.html:71
 msgid "페이스북 로그인"
 msgstr "Facebook login"
 
-#: portfolio/templates/modals/modal1.html:54
+#: portfolio/templates/modals/modal1.html:72
 msgid "Social Auth 를 이용한 페이스북 로그인 기능"
 msgstr "Facebook login using Social Auth"
 
-#: portfolio/templates/modals/modal1.html:60
-#: portfolio/templates/modals/modal2.html:59
+#: portfolio/templates/modals/modal1.html:78
+#: portfolio/templates/modals/modal2.html:77
 msgid "디테일 페이지"
 msgstr "Detail Page"
 
-#: portfolio/templates/modals/modal1.html:61
+#: portfolio/templates/modals/modal1.html:79
 msgid "상품 디테일 페이지, 장바구니에 업데이트 되는 기능"
 msgstr "Product detail page, updating cart"
 
-#: portfolio/templates/modals/modal1.html:67
+#: portfolio/templates/modals/modal1.html:85
 msgid "장바구니"
 msgstr "Cart"
 
-#: portfolio/templates/modals/modal1.html:68
+#: portfolio/templates/modals/modal1.html:86
 msgid "장바구니 업데이트 및 삭제 기능"
 msgstr "Update & delete cart"
 
-#: portfolio/templates/modals/modal1.html:74
+#: portfolio/templates/modals/modal1.html:92
 msgid "마이페이지"
 msgstr "My page"
 
-#: portfolio/templates/modals/modal1.html:75
+#: portfolio/templates/modals/modal1.html:93
 msgid "마이페이지에서 비밀번호 및 사용자 정보 수정"
 msgstr "Update profile information and update passport from my page"
 
-#: portfolio/templates/modals/modal1.html:81
+#: portfolio/templates/modals/modal1.html:99
 msgid "히스토리 페이지"
 msgstr "Order History"
 
-#: portfolio/templates/modals/modal1.html:82
+#: portfolio/templates/modals/modal1.html:100
 msgid "결제가 완료 되는 순간 오더 디비에 추가 되며 화면으로 확인 할 수 있다"
 msgstr ""
 "When checkout is finished, order DB is inserted and that can be checked here"
@@ -279,66 +293,82 @@ msgstr ""
 msgid "flask를 이용하여 ecommerce website 구현"
 msgstr "Used Flask to make ecommerce website"
 
-#: portfolio/templates/modals/modal2.html:41
-msgid "페이팔 결제, 지도를 통한 위치 파악, 하우징 예약, 장바구니기능"
+#: portfolio/templates/modals/modal2.html:49
+msgid ""
+"\n"
+"\n"
+"                                <p>1. 회원가입 및 로그인/로그아웃 기능</p>\n"
+"                                <p>2. GoogleAPI를 이용한 위치 파악</p>\n"
+"                                <p>3. 장바구니</p>\n"
+"                                <p>4. 결제</p>\n"
+"                                <p>5. 하우징 예약</p>\n"
+"                                <p>6. 관리자 페이지(회원관리, 상품 등록, 하우"
+"징 등록, 통계 등)</p>\n"
+"\n"
+"                            "
 msgstr ""
-"Payment with Paypal, used Googlemap API to find locations of houses, reserve "
-"housing, cart"
 
-#: portfolio/templates/modals/modal2.html:45
+#: portfolio/templates/modals/modal2.html:63
 msgid "Flask는 django보다 쉽게 접근 할 수 있었다."
 msgstr "Flask was easier than django for me to get hang of"
 
-#: portfolio/templates/modals/modal2.html:52
-#: portfolio/templates/modals/modal3.html:55
+#: portfolio/templates/modals/modal2.html:70
+#: portfolio/templates/modals/modal3.html:72
 msgid "메인페이지"
 msgstr "Main Page"
 
-#: portfolio/templates/modals/modal2.html:53
-#: portfolio/templates/modals/modal2.html:68
+#: portfolio/templates/modals/modal2.html:71
+#: portfolio/templates/modals/modal2.html:86
 msgid "전체적인 레이아웃 및 디자인"
 msgstr "Layout and design"
 
-#: portfolio/templates/modals/modal2.html:60
+#: portfolio/templates/modals/modal2.html:78
 msgid "레이아웃 및 결제로 연결, 장바구니에 업데이트"
 msgstr "Layout, connecting to checkout, updating cart"
 
-#: portfolio/templates/modals/modal2.html:67
+#: portfolio/templates/modals/modal2.html:85
 msgid "카테고리"
 msgstr "Categories"
 
-#: portfolio/templates/modals/modal2.html:75
+#: portfolio/templates/modals/modal2.html:93
 msgid "지도"
 msgstr "Maps"
 
-#: portfolio/templates/modals/modal2.html:76
+#: portfolio/templates/modals/modal2.html:94
 msgid ""
 "Ajax로 통신하여 지도를 드레그 하면 해당 범위 안에 있는 아이템을 불러온다 "
 "(googlemap API이용)"
 msgstr ""
 "When the map is dragged houses that are among the range are shown. (AJAX)"
 
-#: portfolio/templates/modals/modal2.html:83
+#: portfolio/templates/modals/modal2.html:101
 msgid "페이팔 결제"
 msgstr "Checkout with Paypal"
 
-#: portfolio/templates/modals/modal2.html:84
+#: portfolio/templates/modals/modal2.html:102
 msgid "Paypalsdk 를 이용하여 실제로 paypal을 이용하여 결제 기능 완료"
 msgstr "Checkout made possible with Paypal using paypalsdk"
 
 #: portfolio/templates/modals/modal3.html:21
-msgid "전 세계의 자석들을 공유하기"
+#, fuzzy
+#| msgid "전 세계의 자석들을 공유하기"
+msgid "전 세계 자석을 공유하는 사이트"
 msgstr "Sharing magnets from all over the world"
 
-#: portfolio/templates/modals/modal3.html:41
+#: portfolio/templates/modals/modal3.html:49
 msgid ""
-"글쓰기, 댓글쓰기, 로그인 & 회원가입 (Passport, passport-local), Flashing "
-"Messages"
+"\n"
+"\n"
+"                                    <p>1. 회원가입 및 로그인/로그아웃 기능 "
+"(Passport, passport-local)</p>\n"
+"                                    <p>2. 글쓰기</p>\n"
+"                                    <p>3. 댓글쓰기</p>\n"
+"                                    <p>4. Flashing Messages</p>\n"
+"\n"
+"                                "
 msgstr ""
-"Write posts, comments, login and signup (Passport, passport-local) and "
-"Flashing messages"
 
-#: portfolio/templates/modals/modal3.html:46
+#: portfolio/templates/modals/modal3.html:63
 msgid ""
 "처음으로 node.js 를 공부해보았는데 javascript를 서버단에서 쓸 수 있다는 것이 "
 "매력적으로 느껴졌고, 빠르고 쉽게 배울 수 있으서 흥미로웠다."
@@ -346,35 +376,35 @@ msgstr ""
 "First time trying node.js. What intrigued me was that using javascript to "
 "control server. Easy and very straight forward language."
 
-#: portfolio/templates/modals/modal3.html:56
+#: portfolio/templates/modals/modal3.html:73
 msgid ""
 "전체적인 레이아웃 및 디자인, @keyframes 를 이용하여 백그라운드 이미지가 바뀌"
 "는 애니메이션을 넣었다"
 msgstr "@keyframes was used to make slideshow of backgound image. "
 
-#: portfolio/templates/modals/modal3.html:63
+#: portfolio/templates/modals/modal3.html:80
 #, fuzzy
 #| msgid "메인페이지"
 msgid "메인페이지 2"
 msgstr "Main Page 2"
 
-#: portfolio/templates/modals/modal3.html:64
+#: portfolio/templates/modals/modal3.html:81
 msgid "Bootstrap 그리드를 이용한 메인페이지 레이아웃. 반응형으로 제작"
 msgstr "Main page layout using bootstrap grid system. Responsive layout"
 
-#: portfolio/templates/modals/modal3.html:71
+#: portfolio/templates/modals/modal3.html:88
 msgid "로그인 및 회원가입"
 msgstr "Login and signup"
 
-#: portfolio/templates/modals/modal3.html:72
+#: portfolio/templates/modals/modal3.html:89
 msgid "Passport, passport-local 을 이용한 간편한 회원가입과 로그인 구현"
 msgstr "Easy and safe sign up and login using passport and passport-local"
 
-#: portfolio/templates/modals/modal3.html:79
+#: portfolio/templates/modals/modal3.html:96
 msgid "메시지 화면"
 msgstr "Flashing message"
 
-#: portfolio/templates/modals/modal3.html:80
+#: portfolio/templates/modals/modal3.html:97
 msgid ""
 "Connect-flash 를 이용하여 에러가 있을떄는 빨간색 메시지가, 일반 메시지는 초록"
 "색 메시지를 띄운다"
@@ -382,23 +412,55 @@ msgstr ""
 "Connect-flash only sends request once. When there's error, it flashes red "
 "message, else green message."
 
-#: portfolio/templates/modals/modal3.html:88
+#: portfolio/templates/modals/modal3.html:105
 msgid "댓글 기능"
 msgstr "Comment function"
 
-#: portfolio/templates/modals/modal3.html:89
+#: portfolio/templates/modals/modal3.html:106
 msgid ""
 "댓글을 달 수 있고 authorisation 을 줘서 권한이 있는 사람만 댓글을 지우고 에딧"
 "할 수 있게 한다."
 msgstr "Giving authorisations to add comments, edit and delete them."
 
 #: portfolio/templates/modals/modal4.html:21
-msgid "캠핑장을 모아놓은 사이트이다"
+msgid "Wishbeen 홈페이지를 벤치마킹한 여행 스케쥴링 및 커뮤니티 사이트"
 msgstr ""
 
-#: portfolio/templates/modals/modal4.html:41
-msgid "캠핑장 등록, 댓글, 로그인, 회원가입"
+#: portfolio/templates/modals/modal4.html:49
+msgid ""
+"\n"
+"\n"
+"                                <p>1. 회원가입 및 로그인/로그아웃 기능</p>\n"
+"                                <p>2. 이메일 API를 이용하여 아이디 및 비밀번"
+"호 찾기 기능</p>\n"
+"                                <p>3. Q&A 게시판 기능</p>\n"
+"                                <p>4. 관광지후기(별점추가및댓글작성)기능</"
+"p>\n"
+"                                <p>5. 채팅기능</p>\n"
+"                                <p>6. 구글지도API활용</p>\n"
+"                                <p>7. 데이터베이스 기반의 지역 및 스케쥴 검색"
+"기능</p>\n"
+"                                <p>8. 관리자 페이지(회원관리, 관광지 등록, 통"
+"계, 회원관리 등)</p>\n"
+"\n"
+"                            "
 msgstr ""
 
-#~ msgid "아르바이트"
-#~ msgstr "Work as a part timer"
+#: portfolio/templates/modals/modal4.html:76
+msgid "나의 역할"
+msgstr ""
+
+#: portfolio/templates/modals/modal4.html:77
+msgid ""
+"\n"
+"                            <p>내 스케쥴 조회</p>\n"
+"                            <p>프로필 사진 변경</p>\n"
+"                            <p>상태메시지 변경 기능 구현</p>\n"
+"                            <p>관광지 위시리스트 추가 기능 구현</p>\n"
+"                            <p>관리자페이지 통계</p>\n"
+"                            <p>페이징 처리</p>\n"
+"                            <p>스케쥴 초대, 수락 기능 구현</p>\n"
+"                            <a href=\"https://github.com/paige0701/java-"
+"travel-plan\">Github 참고</a>\n"
+"                        "
+msgstr ""

@@ -18,7 +18,7 @@
                         </tr>
                         <tr>
                             <td class="active">{% trans '설명' %}</td>
-                            <td>{% trans '전 세계의 자석들을 공유하기' %}</td>
+                            <td>{% trans '전 세계 자석을 공유하는 사이트' %}</td>
                         </tr>
                         <tr>
                             <td class="active">{% trans '참여인원' %}</td>
@@ -26,7 +26,14 @@
                         </tr>
                         <tr>
                             <td class="active">{% trans '개발환경 및 개발도구' %}</td>
-                            <td>Cloud9, node.js, mongoDB, express and more</td>
+                            <td>
+                                <p>O.S : 1.3 GHz Intel Core i5, MacOS</p>
+                                <p>Framework : Express</p>
+                                <p>Database : MongoDB [mongoose]</p>
+                                <p>Tool : Cloud9 </p>
+                                <p>Language : node.js, javascript, bootstrap, jquery, css, html</p>
+                                <p>Browser : Chrome</p>
+                            </td>
                         </tr>
                         <tr>
                             <td class="active">{% trans '담당업무' %}</td>
@@ -38,7 +45,17 @@
                         </tr>
                         <tr>
                             <td class="active">{% trans '주요기능' %}</td>
-                            <td>{% trans '글쓰기, 댓글쓰기, 로그인 & 회원가입 (Passport, passport-local), Flashing Messages' %}</td>
+                            <td>
+                                {% blocktrans %}
+
+                                    <p>1. 회원가입 및 로그인/로그아웃 기능 (Passport, passport-local)</p>
+                                    <p>2. 글쓰기</p>
+                                    <p>3. 댓글쓰기</p>
+                                    <p>4. Flashing Messages</p>
+
+                                {% endblocktrans %}
+
+                            </td>
                         </tr>
 
                         <tr>
@@ -51,7 +68,7 @@
 
                 </div>
                 <div class="thumbnail">
-                     <div class="caption-full well">
+                    <div class="caption-full well">
                         <h3><strong>{% trans '메인페이지' %}</strong></h3>
                         <p>{% trans '전체적인 레이아웃 및 디자인, @keyframes 를 이용하여 백그라운드 이미지가 바뀌는 애니메이션을 넣었다' %}</p>
                     </div>
@@ -59,7 +76,7 @@
                 </div>
 
                 <div class="thumbnail">
-                     <div class="caption-full well">
+                    <div class="caption-full well">
                         <h3><strong>{% trans '메인페이지 2' %}</strong></h3>
                         <p>{% trans 'Bootstrap 그리드를 이용한 메인페이지 레이아웃. 반응형으로 제작' %}</p>
                     </div>
@@ -67,7 +84,7 @@
                 </div>
 
                 <div class="thumbnail">
-                     <div class="caption-full well">
+                    <div class="caption-full well">
                         <h3><strong>{% trans '로그인 및 회원가입' %}</strong></h3>
                         <p>{% trans 'Passport, passport-local 을 이용한 간편한 회원가입과 로그인 구현' %}</p>
                     </div>
@@ -75,7 +92,7 @@
                 </div>
 
                 <div class="thumbnail">
-                     <div class="caption-full well">
+                    <div class="caption-full well">
                         <h3><strong>{% trans '메시지 화면' %}</strong></h3>
                         <p>{% trans 'Connect-flash 를 이용하여 에러가 있을떄는 빨간색 메시지가, 일반 메시지는 초록색 메시지를 띄운다' %}</p>
                     </div>
@@ -84,7 +101,7 @@
 
                 </div>
                 <div class="thumbnail">
-                     <div class="caption-full well">
+                    <div class="caption-full well">
                         <h3><strong>{% trans '댓글 기능' %}</strong></h3>
                         <p>{% trans '댓글을 달 수 있고 authorisation 을 줘서 권한이 있는 사람만 댓글을 지우고 에딧할 수 있게 한다.' %}</p>
                     </div>

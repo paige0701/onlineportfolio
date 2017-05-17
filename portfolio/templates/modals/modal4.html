@@ -18,19 +18,27 @@
                         </tr>
                         <tr>
                             <td class="active">{% trans '설명' %}</td>
-                            <td>{% trans '캠핑장을 모아놓은 사이트이다' %}</td>
+                            <td>{% trans 'Wishbeen 홈페이지를 벤치마킹한 여행 스케쥴링 및 커뮤니티 사이트' %}</td>
                         </tr>
                         <tr>
                             <td class="active">{% trans '참여인원' %}</td>
-                            <td>1 {% trans '명' %}</td>
+                            <td>5 {% trans '명' %}</td>
                         </tr>
                         <tr>
                             <td class="active">{% trans '개발환경 및 개발도구' %}</td>
-                            <td>'Cloud9, node.js, mongoDB, express'</td>
+                            <td>
+                                <p>O.S : Windows 8</p>
+                                <p>Framework : Spring3.1.1 + Mybatis</p>
+                                <p>Pattern : MVC</p>
+                                <p>Database : Oracle 11g</p>
+                                <p>Tool : Eclipse , SQLDeveloper , ERWin Modeler</p>
+                                <p>Language : Java , JSP , Servlet, Html5 , Java-Script , JQuery , Ajax (JSON)</p>
+                                <p>Browser : Chrome</p>
+                            </td>
                         </tr>
                         <tr>
                             <td class="active">{% trans '담당업무' %}</td>
-                            <td>100%</td>
+                            <td>30%</td>
                         </tr>
                         <tr>
                             <td class="active">{% trans '개발기간' %}</td>
@@ -38,12 +46,46 @@
                         </tr>
                         <tr>
                             <td class="active">{% trans '주요기능' %}</td>
-                            <td>{% trans '캠핑장 등록, 댓글, 로그인, 회원가입' %}</td>
+                            <td>{% blocktrans %}
+
+                                <p>1. 회원가입 및 로그인/로그아웃 기능</p>
+                                <p>2. 이메일 API를 이용하여 아이디 및 비밀번호 찾기 기능</p>
+                                <p>3. Q&A 게시판 기능</p>
+                                <p>4. 관광지후기(별점추가및댓글작성)기능</p>
+                                <p>5. 채팅기능</p>
+                                <p>6. 구글지도API활용</p>
+                                <p>7. 데이터베이스 기반의 지역 및 스케쥴 검색기능</p>
+                                <p>8. 관리자 페이지(회원관리, 관광지 등록, 통계, 회원관리 등)</p>
+
+                            {% endblocktrans %}
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="active">{% trans '느낀점' %}</td>
+                            <td></td>
                         </tr>
 
 
                     </table>
 
+                </div>
+
+                <div class="thumbnail">
+                    <div class="caption-full well">
+                        <h3><strong>{% trans '나의 역할' %}</strong></h3>
+                        {% blocktrans  %}
+                            <p>내 스케쥴 조회</p>
+                            <p>프로필 사진 변경</p>
+                            <p>상태메시지 변경 기능 구현</p>
+                            <p>관광지 위시리스트 추가 기능 구현</p>
+                            <p>관리자페이지 통계</p>
+                            <p>페이징 처리</p>
+                            <p>스케쥴 초대, 수락 기능 구현</p>
+                            <a href="https://github.com/paige0701/java-travel-plan">Github 참고</a>
+                        {% endblocktrans %}
+
+                    </div>
                 </div>
 
 
