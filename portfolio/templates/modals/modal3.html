@@ -7,7 +7,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4>Yelpcamp</h4>
+                <h4>Magenetica</h4>
             </div>
             <div class="modal-body">
                 <div>
@@ -48,8 +48,8 @@
                             <td>
                                 {% blocktrans %}
 
-                                    <p>1. 회원가입 및 로그인/로그아웃 기능 (Passport, passport-local)</p>
-                                    <p>2. 글쓰기</p>
+                                    <p>1. 회원가입 및 로그인/로그아웃 기능</p>
+                                    <p>2. 글쓰기(사진첨부)</p>
                                     <p>3. 댓글쓰기</p>
                                     <p>4. Flashing Messages</p>
 
@@ -102,10 +102,18 @@
                 </div>
                 <div class="thumbnail">
                     <div class="caption-full well">
-                        <h3><strong>{% trans '댓글 기능' %}</strong></h3>
-                        <p>{% trans '댓글을 달 수 있고 authorisation 을 줘서 권한이 있는 사람만 댓글을 지우고 에딧할 수 있게 한다.' %}</p>
+                        <h3><strong>{% trans '글쓰기 및 사진 첨부' %}</strong></h3>
+                        <p>{% trans 'multipart/form-data form 을 이용한 글쓰기 및 사진 첨부 기능. Multer, fs module 사용' %}</p>
                     </div>
-                    <img class='image-responsive modal-photo' src='/media/node/comment.png' >
+                    <img class='image-responsive modal-photo' src='/media/node/attach.png' >
+                </div>
+
+                <div class="thumbnail">
+                    <div class="caption-full well">
+                        <h3><strong>{% trans '글 삭제 및 편집, 댓글 삭제 및 편집' %}</strong></h3>
+                        <p>{% trans 'Authorisation을 통한 삭제 및 편집' %}</p>
+                    </div>
+                    <img class='image-responsive modal-photo' src='/media/node/show.png' >
                 </div>
 
 

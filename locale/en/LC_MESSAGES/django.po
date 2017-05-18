@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 19:16+0900\n"
+"POT-Creation-Date: 2017-05-19 01:09+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: mysite/settings.py:152
+#: mysite/settings.py:151
 msgid "English"
 msgstr ""
 
-#: mysite/settings.py:153
+#: mysite/settings.py:152
 msgid "Korean"
 msgstr ""
 
@@ -377,9 +377,9 @@ msgstr "Sharing magnets from all over the world"
 msgid ""
 "\n"
 "\n"
-"                                    <p>1. 회원가입 및 로그인/로그아웃 기능 "
-"(Passport, passport-local)</p>\n"
-"                                    <p>2. 글쓰기</p>\n"
+"                                    <p>1. 회원가입 및 로그인/로그아웃 기능</"
+"p>\n"
+"                                    <p>2. 글쓰기(사진첨부)</p>\n"
 "                                    <p>3. 댓글쓰기</p>\n"
 "                                    <p>4. Flashing Messages</p>\n"
 "\n"
@@ -387,9 +387,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"                                    <p>1. Sign up, login/logout function "
-"(Passport, passport-local)</p>\n"
-"                                    <p>2. Write, delete and edit  post</p>\n"
+"                                    <p>1. Sign up, login/logout function</p>\n"
+"                                    <p>2. Write, delete and edit post (Attach photos) </p>\n"
 "                                    <p>3. Write, delete and edit comments</"
 "p>\n"
 "                                    <p>4. Flashing Messages</p>\n"
@@ -411,7 +410,6 @@ msgid ""
 msgstr "@keyframes was used to make slideshow of backgound image. "
 
 #: portfolio/templates/modals/modal3.html:80
-#| msgid "메인페이지"
 msgid "메인페이지 2"
 msgstr "Main Page 2"
 
@@ -440,14 +438,22 @@ msgstr ""
 "message, else green message."
 
 #: portfolio/templates/modals/modal3.html:105
-msgid "댓글 기능"
-msgstr "Comment function"
+msgid "글쓰기 및 사진 첨부"
+msgstr "Writing posts and attach photos"
 
 #: portfolio/templates/modals/modal3.html:106
 msgid ""
-"댓글을 달 수 있고 authorisation 을 줘서 권한이 있는 사람만 댓글을 지우고 에딧"
-"할 수 있게 한다."
-msgstr "Giving authorisations to add comments, edit and delete them."
+"multipart/form-data form 을 이용한 글쓰기 및 사진 첨부 기능. Multer, fs "
+"module 사용"
+msgstr "Used multipart/form-data forms to write posts and attach files. Multer and fs modules used"
+
+#: portfolio/templates/modals/modal3.html:113
+msgid "글 삭제 및 편집, 댓글 삭제 및 편집"
+msgstr "Delete & update posts and comments"
+
+#: portfolio/templates/modals/modal3.html:114
+msgid "Authorisation을 통한 삭제 및 편집"
+msgstr "Updating and deleting post through authorisation"
 
 #: portfolio/templates/modals/modal4.html:21
 msgid "Wishbeen 홈페이지를 벤치마킹한 여행 스케쥴링 및 커뮤니티 사이트"
@@ -518,3 +524,4 @@ msgstr ""
 "                            <a href=\"https://github.com/paige0701/java-"
 "travel-plan\">Github</a>\n"
 "                        "
+
