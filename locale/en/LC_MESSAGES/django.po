@@ -52,8 +52,7 @@ msgstr ""
 "                        <p>Usually use python, java, node.js</p>\n"
 "                        <p>Also very interested in django, flask, express, "
 "mongoDB</p>\n"
-"                        <p>Fluent in English and Korean. Currently learning "
-"Spanish alone</p>\n"
+"                        <p>Native Korean speaker, fluent in English. Currently self-studying Spanish</p>\n"
 "                    "
 
 #: portfolio/templates/aboutme.html:34
@@ -62,7 +61,7 @@ msgstr "Hobbies"
 
 #: portfolio/templates/aboutme.html:36
 msgid "스페인어 공부하기"
-msgstr "Study Spanish"
+msgstr "Studying Spanish"
 
 #: portfolio/templates/aboutme.html:37
 msgid "여행하기"
@@ -70,7 +69,7 @@ msgstr "Travelling"
 
 #: portfolio/templates/aboutme.html:38
 msgid "여행 블로그 쓰기"
-msgstr "Write travel blogs"
+msgstr "Writing travel blogs"
 
 #: portfolio/templates/contact.html:6
 msgid "연락하기"

@@ -49,6 +49,8 @@ h2, h3, h4 {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+
+
 }
 .bg-1 {
     background: #eee;
@@ -147,6 +149,7 @@ textarea {
 }
 
 
+/*메인화면 글씨*/
 .home {
     /*width:100%;*/
     /*height:100%;*/
@@ -155,25 +158,14 @@ textarea {
     /* z-index 를 쓰려면 포지선은 static 이면 안된다  ! */
     position: relative;
     text-align: center;
-    padding-top: 40vh;
+    padding-top: 20vh;
     margin-bottom:18%;
+
     /*top:40%;*/
 }
 
-/*#slideshow {*/
-    /*position: fixed;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*z-index: 0;*/
-    /*list-style: none;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-/*}*/
-
 .not-active {
-   cursor: default;
+    cursor: default;
 }
 
 
@@ -183,7 +175,7 @@ textarea {
     position: absolute;
     top: 0;
     left: 0;
-    background-image:url('/media/IMG_5259.JPG');
+    background-image:url('/media/main.jpg');
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -201,7 +193,7 @@ textarea {
 
 .header{
     margin-top:7%;
-    margin-bottom: 4%;
+    margin-bottom:2%;
 }
 
 .header-container-fluid{
@@ -209,6 +201,16 @@ textarea {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+#myname{
+    font-size:6.0em;
+    font-weight: 800;
+
+}
+#myrole{
+    font-size:3.0em;
+    font-weight: 800;
 }
 
 /*modal*/
