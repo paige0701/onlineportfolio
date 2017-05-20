@@ -196,6 +196,11 @@ textarea {
     margin-bottom:2%;
 }
 
+.header > h1 {
+    letter-spacing: 10px;
+
+}
+
 .header-container-fluid{
     padding-right: 15px;
     padding-left: 15px;

@@ -59,70 +59,66 @@
                         </tr>
 
                         <tr>
-                            <td class="active">{% trans '느낀점' %}</td>
-                            <td>{% trans '처음으로 node.js 를 공부해보았는데 javascript를 서버단에서 쓸 수 있다는 것이 매력적으로 느껴졌고, 빠르고 쉽게 배울 수 있으서 흥미로웠다.' %}</td>
+                            <td class="active">{% trans '나의 역할' %}</td>
+                            <td>
+
+
+                                <div class="caption-full">
+                                    <p>1. {% trans '메인페이지' %} : {% trans '화면구성 기획 및 디자인, @keyframes 를 이용, 백그라운드 애니메이션 삽입' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/node/front.png' >
+                                </div>
+
+                                <div class="caption-full ">
+                                    <p>2. {% trans '메인페이지(2)' %} : {% trans 'Bootstrap 그리드를 이용,  반응형 메인페이지 레이아웃 제작' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/node/index.png' >
+                                </div>
+
+
+                                <div class="caption-full ">
+                                    <p>3. {% trans '로그인 및 회원가입' %} : {% trans 'Passport, passport-local 을 이용, 간편한 회원가입과 로그인 구현' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/node/login.png' >
+                                </div>
+
+
+                                <div class="caption-full">
+                                    <p>4 . {% trans '메시지 화면' %} : {% trans 'Connect-flash 를 이용, 상황에 따른 메시지 표현(에러발생-red/미발생-green)' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/node/f.png' >
+                                    <img class='image-responsive modal-photo' src='/media/node/error.png' >
+                                </div>
+
+
+                                <div class="caption-full">
+                                    <p>5. {% trans '글쓰기 및 사진 첨부' %} : {% trans 'multipart/form-data form와  Multer, fs module 을 이용, 글쓰기 및 사진 첨부 기능 구현' %}</p>
+
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/node/attach.png' >
+                                </div>
+
+                                <div class="caption-full ">
+                                    <p>6. {% trans '글 삭제 및 편집, 댓글 삭제 및 편집' %} : {% trans 'Authorisation 이용, 댓글 삭제 및 편집' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/node/show.png' >
+                                </div>
+
+
+                            </td>
                         </tr>
 
 
                     </table>
 
                 </div>
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '메인페이지' %}</strong></h3>
-                        <p>{% trans '전체적인 레이아웃 및 디자인, @keyframes 를 이용하여 백그라운드 이미지가 바뀌는 애니메이션을 넣었다' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/node/front.png' >
-                </div>
-
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '메인페이지 2' %}</strong></h3>
-                        <p>{% trans 'Bootstrap 그리드를 이용한 메인페이지 레이아웃. 반응형으로 제작' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/node/index.png' >
-                </div>
-
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '로그인 및 회원가입' %}</strong></h3>
-                        <p>{% trans 'Passport, passport-local 을 이용한 간편한 회원가입과 로그인 구현' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/node/login.png' >
-                </div>
-
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '메시지 화면' %}</strong></h3>
-                        <p>{% trans 'Connect-flash 를 이용하여 에러가 있을떄는 빨간색 메시지가, 일반 메시지는 초록색 메시지를 띄운다' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/node/f.png' >
-                    <img class='image-responsive modal-photo' src='/media/node/error.png' >
-
-                </div>
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '글쓰기 및 사진 첨부' %}</strong></h3>
-                        <p>{% trans 'multipart/form-data form 을 이용한 글쓰기 및 사진 첨부 기능. Multer, fs module 사용' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/node/attach.png' >
-                </div>
-
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '글 삭제 및 편집, 댓글 삭제 및 편집' %}</strong></h3>
-                        <p>{% trans 'Authorisation을 통한 삭제 및 편집' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/node/show.png' >
-                </div>
-
-
-
-
             </div>
-            {#            <div class="modal-footer">#}
-            {##}
-            {#            </div>#}
         </div>
     </div>
 </div>

@@ -46,61 +46,67 @@
                         <tr>
                             <td class="active">{% trans '주요기능' %}</td>
                             <td>
-                           {% blocktrans %}
+                                {% blocktrans %}
 
-                                <p>1. 회원가입 및 로그인/로그아웃 기능</p>
-                                <p>2. 페이스북 로그인</p>
-                                <p>3. 장바구니</p>
-                                <p>4. 결제</p>
-                                <p>5. 관리자 페이지(회원관리, 상품 등록, 통계 등)</p>
+                                    <p>1. 회원가입 및 로그인/로그아웃 기능</p>
+                                    <p>2. 페이스북 로그인</p>
+                                    <p>3. 장바구니</p>
+                                    <p>4. 결제</p>
+                                    <p>5. 관리자 페이지(회원관리, 상품 등록, 통계 등)</p>
 
-                            {% endblocktrans %}
+                                {% endblocktrans %}
 
                             </td>
                         </tr>
                         <tr>
-                            <td class="active">{% trans '느낀점' %}</td>
-                            <td>{% trans 'Python을 접하고 처음으로 하는 프로젝트여서 많은 참여를 하지는 못했지만 django를 배울 수 있었던 좋은 기회였다.' %}
-                                {% trans '학원에서 배웠던 Java랑은 확실히 달라서 적응하는데 시간이 걸렸지만, 이 프로젝트를 통해 새로운 것을 받아드리는 유연함을 길렀다 ' %}</td>
+                            <td class="active">{% trans '나의 역할' %}</td>
+                            <td>
+                                <div class="caption-full">
+                                    <p>1. 페이스북 로그인 : {% trans 'Social Auth 를 이용한 페이스북 로그인 ' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper/facebook.png' >
+                                </div>
+
+
+                                <div class="caption-full">
+                                    <p>2. {% trans '디테일 페이지' %} : {% trans '상품 디테일 페이지, 장바구니에 업데이트' %} </p>
+                                </div>
+                                <div class="thumbnail">
+
+                                    <img class='image-responsive modal-photo' src='/media/kamper/detail.png' >
+                                </div>
+
+
+                                <div class="caption-full">
+                                    <p>3. {% trans '장바구니' %} : {% trans '장바구니 업데이트 및 삭제' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper/cart.png' >
+                                </div>
+
+
+                                <div class="caption-full">
+                                    <p>4. {% trans '마이페이지' %} : {% trans '비밀번호 및 사용자 정보 수정' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper/mypage.png' >
+                                </div>
+
+
+                                <div class="caption-full">
+                                        <p>5. {% trans '히스토리 페이지' %} : {% trans '결제완료 목록 확인' %}</p>
+                                    </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper/orderhistory.png' >
+                                </div>
+
+
+                            </td>
                         </tr>
                     </table>
                 </div>
 
-                <div class="thumbnail">
-                     <div class="caption-full well">
-                        <h3><strong>{% trans '페이스북 로그인' %}</strong></h3>
-                        <p>{% trans 'Social Auth 를 이용한 페이스북 로그인 기능' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper/facebook.png' >
-                </div>
-                <div class="thumbnail">
-                     <div class="caption-full well">
-                        <h3><strong>{% trans '디테일 페이지' %}</strong></h3>
-                        <p>{% trans '상품 디테일 페이지, 장바구니에 업데이트 되는 기능' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper/detail.png' >
-                </div>
-                <div class="thumbnail">
-                     <div class="caption-full well">
-                        <h3><strong>{% trans '장바구니' %}</strong></h3>
-                        <p>{% trans '장바구니 업데이트 및 삭제 기능' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper/cart.png' >
-                </div>
-                <div class="thumbnail">
-                     <div class="caption-full well">
-                        <h3><strong>{% trans '마이페이지' %}</strong></h3>
-                        <p>{% trans '마이페이지에서 비밀번호 및 사용자 정보 수정' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper/mypage.png' >
-                </div>
-                <div class="thumbnail">
-                     <div class="caption-full well">
-                        <h3><strong>{% trans '히스토리 페이지' %}</strong></h3>
-                        <p>{% trans '결제가 완료 되는 순간 오더 디비에 추가 되며 화면으로 확인 할 수 있다' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper/orderhistory.png' >
-                </div>
             </div>
             {#            <div class="modal-footer">#}
             {##}

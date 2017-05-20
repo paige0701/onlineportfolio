@@ -1,26 +1,37 @@
 {% load i18n %}
 <!-- Container (Education Section) -->
-    <div id="education" class="container-fluid text-center bg-1 box">
-        <div class="header">
-            <h2>{% trans '학력' %}</h2>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-12">
-                <h3 class=""><strong>{% trans '숭실대학교' %}</strong></h3>
-                <p>{% trans '경영학부' %}</p>
-                <p>~ 2017.02 {% trans '졸업 (학사)' %}</p>
-                <p>3.51/4.5</p>
+<div id="education" class="container-fluid text-center bg-1 box">
+    <div class="header">
+        <h1>{% trans '학력' %}</h1>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="container">
+
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="/media/soongsil.png" alt="" class="img-responsive person" style="width:70%; height:50%">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3 class=""><strong>{% trans '숭실대학교' %}</strong></h3>
+                        <p>{% trans '경영학부' %}</p>
+                        <p> 2017.02 {% trans '졸업 (학사)' %}</p>
+                        <p>3.51/4.50 GPA</p>
+                    </div>
+                </div>
+
 
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-6">
                 <h3 class=""><strong>KH {% trans '정보교육원'%}</strong></h3>
                 <p>{% trans '오라클 기반의 웹어프리케이션 개발 자바 전문가과정' %}</p>
                 <p>2016.02 ~ 2016.07</p>
                 <p>Java, JSP, Spring, Javascript</p>
             </div>
         </div>
+
     </div>
+
+</div>

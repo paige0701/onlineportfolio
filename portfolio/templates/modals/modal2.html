@@ -46,63 +46,66 @@
                         <tr>
                             <td class="active">{% trans '주요기능' %}</td>
                             <td>
-                            {% blocktrans %}
+                                {% blocktrans %}
 
-                                <p>1. 회원가입 및 로그인/로그아웃 기능</p>
-                                <p>2. GoogleAPI를 이용한 위치 파악</p>
-                                <p>3. 장바구니</p>
-                                <p>4. 결제</p>
-                                <p>5. 하우징 예약</p>
-                                <p>6. 관리자 페이지(회원관리, 상품 등록, 하우징 등록, 통계 등)</p>
+                                    <p>1. 회원가입 및 로그인/로그아웃 기능</p>
+                                    <p>2. GoogleAPI를 이용한 위치 파악</p>
+                                    <p>3. 장바구니</p>
+                                    <p>4. 결제</p>
+                                    <p>5. 하우징 예약</p>
+                                    <p>6. 관리자 페이지(회원관리, 상품 등록, 하우징 등록, 통계 등)</p>
 
-                            {% endblocktrans %}
+                                {% endblocktrans %}
                             </td>
                         </tr>
                         <tr>
-                            <td class="active">{% trans '느낀점' %}</td>
-                            <td>{% trans 'Flask는 django보다 쉽게 접근 할 수 있었다.' %}</td>
+                            <td class="active">{% trans '나의 역할' %}</td>
+                            <td>
+                                <div class="caption-full">
+                                    <p>1. {% trans '메인페이지' %} : {% trans '화면구성 기획 및 디자인' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper2/front.png' >
+                                </div>
+
+
+                                <div class="caption-full ">
+                                    <p>2. {% trans '디테일 페이지' %} : {% trans '결제모듈 연결, 장바구니 항목 업데이트' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper2/detail.png' >
+                                </div>
+
+                                <div class="caption-full ">
+                                    <p>3. {% trans '카테고리' %} : {% trans '화면구성 및 디자인' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper2/choose.png' >
+                                </div>
+
+
+                                <div class="caption-full ">
+                                    <p>4. {% trans '지도' %} : {% trans 'Ajax로 통신, 지도 드레그 시 범위 안의 아이템 로드 (googlemap API이용)' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper2/maps.png' >
+                                </div>
+
+
+                                <div class="caption-full ">
+                                    <p>5. {% trans '페이팔 결제' %} : {% trans 'Paypalsdk 를 이용, 신용카드 결제기능 구현' %}</p>
+                                </div>
+                                <div class="thumbnail">
+                                    <img class='image-responsive modal-photo' src='/media/kamper2/paypal.png' >
+                                </div>
+
+
+                            </td>
                         </tr>
                     </table>
                 </div>
 
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '메인페이지' %}</strong></h3>
-                        <p>{% trans '전체적인 레이아웃 및 디자인' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper2/front.png' >
-                </div>
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '디테일 페이지' %}</strong></h3>
-                        <p>{% trans '레이아웃 및 결제로 연결, 장바구니에 업데이트' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper2/detail.png' >
-                </div>
 
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '카테고리' %}</strong></h3>
-                        <p>{% trans '전체적인 레이아웃 및 디자인' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper2/choose.png' >
-                </div>
-
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '지도' %}</strong></h3>
-                        <p>{% trans 'Ajax로 통신하여 지도를 드레그 하면 해당 범위 안에 있는 아이템을 불러온다 (googlemap API이용)' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper2/maps.png' >
-                </div>
-
-                <div class="thumbnail">
-                    <div class="caption-full well">
-                        <h3><strong>{% trans '페이팔 결제' %}</strong></h3>
-                        <p>{% trans 'Paypalsdk 를 이용하여 실제로 paypal을 이용하여 결제 기능 완료' %}</p>
-                    </div>
-                    <img class='image-responsive modal-photo' src='/media/kamper2/paypal.png' >
-                </div>
 
             </div>
             {#            <div class="modal-footer">#}

@@ -2,44 +2,45 @@
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center">
     <div class="header">
-        <h2>{% trans '포트폴리오' %}</h2>
+        <h1>{% trans '포트폴리오' %}</h1>
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-3">
-            <a href="#demo" data-toggle="collapse">
-                <img src="/media/kamper.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
-                     data-toggle="modal" data-target="#myModal1">
-            </a>
-{#            <p>KAMPER</p>#}
-{#            <p>django, python, elastic beanstalk</p>#}
-        </div>
-        <div class="col-sm-3">
-            <a href="#demo" data-toggle="collapse">
-                <img src="/media/kamper2.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
-                     data-toggle="modal" data-target="#myModal2">
-            </a>
-{#            <p>KAMPER</p>#}
-{#            <p>python, flask, aws</p>#}
-        </div>
-        <div class="col-sm-3">
-            <a href="#demo" data-toggle="collapse">
-                <img src="/media/node.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
-                     data-toggle="modal" data-target="#myModal3">
-            </a>
-{#            <p>Yelpcamp</p>#}
-{#            <p>node,js</p>#}
-        </div>
-        <div class="col-sm-3">
-            <a href="#demo" data-toggle="collapse">
-                <img src="/media/java.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
-                     data-toggle="modal" data-target="#myModal4">
-            </a>
-{#            <p>TRIPLAN</p>#}
-{#            <p>travel planning site</p>#}
+        <div class="container">
+            <div class="col-sm-3">
+                <a href="#demo" data-toggle="collapse">
+                    <img src="/media/kamper.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
+                         data-toggle="modal" data-target="#myModal1">
+                </a>
+                {#            <p>KAMPER</p>#}
+                {#            <p>django, python, elastic beanstalk</p>#}
+            </div>
+            <div class="col-sm-3">
+                <a href="#demo" data-toggle="collapse">
+                    <img src="/media/kamper2.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
+                         data-toggle="modal" data-target="#myModal2">
+                </a>
+                {#            <p>KAMPER</p>#}
+                {#            <p>python, flask, aws</p>#}
+            </div>
+            <div class="col-sm-3">
+                <a href="#demo" data-toggle="collapse">
+                    <img src="/media/node.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
+                         data-toggle="modal" data-target="#myModal3">
+                </a>
+                {#            <p>Yelpcamp</p>#}
+                {#            <p>node,js</p>#}
+            </div>
+            <div class="col-sm-3">
+                <a href="#demo" data-toggle="collapse">
+                    <img src="/media/java.png" class="img-circle portfoliophoto" alt="Random Name" width="150" height="200"
+                         data-toggle="modal" data-target="#myModal4">
+                </a>
+                {#            <p>TRIPLAN</p>#}
+                {#            <p>travel planning site</p>#}
+            </div>
         </div>
     </div>
-
 </div>
 
 {% include 'modals/modal1.html' %}
