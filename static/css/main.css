@@ -254,6 +254,9 @@ textarea {
 .modal.in .modal-dialog {
     width:70%;
 }
+
+
+
 @media only screen and (max-width: 500px) {
     .modal.in .modal-dialog {
         width:100%;
@@ -285,8 +288,10 @@ textarea {
         /* z-index 를 쓰려면 포지선은 static 이면 안된다  ! */
         position: relative;
         text-align: center;
-        padding-top: 10vh;
-        margin-bottom:60%;
+        padding-top: 7vh;
+        margin-bottom:65%;
+
+
     }
 
     #myname{
@@ -297,6 +302,18 @@ textarea {
     #myrole{
         font-size:2.0em;
         font-weight: 600;
+    }
+    .header{
+        margin-top:4%;
+        margin-bottom:1%;
+    }
+
+    .header > h1 {
+        letter-spacing: 10px;
+
+    }
+    .container{
+        padding:1px;
     }
 }
 
