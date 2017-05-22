@@ -151,17 +151,12 @@ textarea {
 
 /*메인화면 글씨*/
 .home {
-    /*width:100%;*/
-    /*height:100%;*/
-    /*position: relative;*/
     z-index: 1;
     /* z-index 를 쓰려면 포지선은 static 이면 안된다  ! */
     position: relative;
     text-align: center;
     padding-top: 20vh;
     margin-bottom:18%;
-
-    /*top:40%;*/
 }
 
 .not-active {
@@ -259,6 +254,53 @@ textarea {
 .modal.in .modal-dialog {
     width:70%;
 }
+@media only screen and (max-width: 500px) {
+    .modal.in .modal-dialog {
+        width:100%;
+    }
+    .modal-header, h4, .close {
+        background-color: #333;
+        color: #fff !important;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #slideshow li {
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image:url('/media/main.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        opacity: 0.85;
+        z-index: 0;
+        /*animation: imageAnimation 50s linear infinite;*/
+    }
+
+    .home {
+        z-index: 1;
+        /* z-index 를 쓰려면 포지선은 static 이면 안된다  ! */
+        position: relative;
+        text-align: center;
+        padding-top: 10vh;
+        margin-bottom:60%;
+    }
+
+    #myname{
+        font-size:4.0em;
+        font-weight: 600;
+
+    }
+    #myrole{
+        font-size:2.0em;
+        font-weight: 600;
+    }
+}
+
+
 
 .header-lang{
     position: relative;
