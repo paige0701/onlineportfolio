@@ -7,33 +7,33 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#myPage">{% trans '홈' %}</a>
+            <a class="navbar-brand" href="#myPage">홈</a>
         </div>
 
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#aboutme">{% trans '자기소개'%}</a></li>
-                <li><a href="#skills">{% trans '개발능력' %}</a></li>
-                <li><a href="#experience">{% trans '경력' %}</a></li>
-                <li><a href="#education">{% trans '학력' %}</a></li>
-                <li><a href="#portfolio">{% trans '포트폴리오' %}</a></li>
+                <li><a href="#aboutme">자기소개</a></li>
+                <li><a href="#skills">개발능력</a></li>
+                <li><a href="#experience">경력</a></li>
+                <li><a href="#education">학력</a></li>
+                <li><a href="#portfolio">포트폴리오</a></li>
 {#                <li><a href="#contact">{% trans '연락' %}</a></li>#}
-                <li class="header-lang">
-                    <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
-                        <input name="next" type="hidden" value="{{ redirect_to }}" />
-                        <select name="language">
-                            {% get_current_language as LANGUAGE_CODE %}
-                            {% get_available_languages as LANGUAGES %}
-                            {% get_language_info_list for LANGUAGES as languages %}
-                            {% for language in languages %}
-                                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
-                                    {{ language.name_local }} ({{ language.code }})
-                                </option>
-                            {% endfor %}
-                        </select>
-                        <input type="submit" value="Go" class="btn btn-xs btn-default"/>
-                    </form>
-                </li>
+{#                <li class="header-lang">#}
+{#                    <form action="{% url 'set_language' %}" method="post">{% csrf_token %}#}
+{#                        <input name="next" type="hidden" value="{{ redirect_to }}" />#}
+{#                        <select name="language">#}
+{#                            {% get_current_language as LANGUAGE_CODE %}#}
+{#                            {% get_available_languages as LANGUAGES %}#}
+{#                            {% get_language_info_list for LANGUAGES as languages %}#}
+{#                            {% for language in languages %}#}
+{#                                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>#}
+{#                                    {{ language.name_local }} ({{ language.code }})#}
+{#                                </option>#}
+{#                            {% endfor %}#}
+{#                        </select>#}
+{#                        <input type="submit" value="Go" class="btn btn-xs btn-default"/>#}
+{#                    </form>#}
+{#                </li>#}
             </ul>
         </div>
     </div>
