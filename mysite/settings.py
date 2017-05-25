@@ -27,7 +27,9 @@ SECRET_KEY = '-6m0u5xxs5@=5)889u%jz6&))371-a-t8ggkxcfwh_al_s==fq'
 DEBUG = True
 
 ALLOWED_HOSTS = ['django-env.swaxdqdxsj.ap-northeast-2.elasticbeanstalk.com',
-                 '127.0.0.1']
+                 '127.0.0.1',
+                 'wwww.paigechoi.me',
+                 'paigechoi.me']
 
 
 # Application definition
