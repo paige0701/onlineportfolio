@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['django-env.swaxdqdxsj.ap-northeast-2.elasticbeanstalk.com',
                  '127.0.0.1',
-                 'wwww.paigechoi.me',
+                 'www.paigechoi.me',
                  'paigechoi.me']
 
 
